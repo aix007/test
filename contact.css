@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Lab Grotesque';
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 60px;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0) 0px 30px 60px -10px;
+    position: fixed;
+    top: 0px;
+    left: 0; /* Added to ensure the navbar sticks to the left edge */
+    right: 0; /* Added to ensure the navbar sticks to the right edge */
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(25px);
+    
+
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s;
+
+}
+
+a:hover {
+    color: #333;
+    transform: scale(1.05);
+}
+
+a li { color: #767676;
+
+} 
+
+ul li {
+    display: inline-block;
+    margin: 23px;
+    font-weight: 400;
+    margin-top: 20px;
+    transition: all 0.3s;
+    font-size: 18px;
+    margin-right: 25px;
+
+    
+}
+
+li:hover {
+    color: #333;
+    transform: scale(1.05);
+}
+
+
+.button1 {
+    border: none;
+    text-decoration: none;
+    outline: none;
+    height: 48px;
+    width: 129px;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: #04ddb2;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 104px;
+    margin-top: 0px;
+    transition: all 0.3s;
+}
+
+.button1:hover {
+    transform: scale(1.05);
+
+}
+
+.logo {
+    margin-left: 80px;
+    margin-top: -8px;
+    color: #333;
+    font-size: 2.5rem;
+}
+
+.container2 {
+    width: 450px;
+    height: 500px;
+    background-color: #333;
+    position: absolute;
+    transform: translate(-90%, 45%);
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container1 {
+    width: 900px;
+    height: 600px;
+    background-color: #04ddb2;
+    align-items: center;
+    transform: translateY(30%);
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+form {
+    float: right;
+    color: #333;
+    margin-right: 75px;
+    transform: translateY(20px);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: -5px;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.contact-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact-input {
+    outline: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid #333;
+    padding-left: 20px;
+}
+
+.contact-inputs textarea {
+    height: 150px;
+    resize: none;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.button2 {
+    border: none;
+    text-decoration: none;
+    outline: none;
+    height: 48px;
+    width: 129px;
+    border-radius: 42px;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 104px;
+    margin-top: 0px;
+    transition: all 0.3s;
+    transform: translateX(380px);
+}
+
+.h11 {
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 75px;
+    font-size: 3.5rem;
+}
+
+.p1 {
+    margin-left: 50px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 2rem;
+
+}
+
+.socials {
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+i {
+    font-size: 40px;
+    color: white;
+    font-weight: 300;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.p2 {
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    transform: translateY(-2px);
+}
+
+.p3 {
+    color: white;
+    color: #fff;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin-left: 5px;
+
+}
