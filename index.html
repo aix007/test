@@ -11,12 +11,19 @@
 <body>
     <nav>
         <a href="#" class="logo"><img src="avenuelogo.PNG" alt=""></a>
-        <ul>
+        <ul class="sidebar">
+            <i onclick="hideSidebar()" class='bx bx-x'></i>
             <a href="#grid"><li>Services</li></a>
             <a href="#aboutus"><li>About Us</li></a>
             <a href="#team "><li>Team</li></a>
         </ul>
-        <a href="contact.html"  ><button class="button1">Join Us</button></a>
+        <ul>
+            <a href="#grid"><li class="hideOnMobile">Services</li></a>
+            <a href="#aboutus"><li class="hideOnMobile">About Us</li></a>
+            <a href="#team "><li class="hideOnMobile">Team</li></a>
+        </ul>
+        <a href="contact.html"  ><button class="button1 hideOnMobile">Join Us</button></a>
+        <i onclick="showSidebar()" class='bx bx-menu' ></i>
     </nav>
 
     <section class="sect1">
@@ -53,7 +60,7 @@
 
 
     <section class="sect3" id="aboutus">
-        <h1 class="h13">Our goal: <span class="span1">Versality</span></h1>
+        <h1 class="h13">Our goal: <span class="span1">Versatility</span></h1>
         <p class="p1">Where imagination meets innovation. We're the ultimate creative hub, 
             offering a dynamic fusion of graphic design, video editing, web development, and music production services.
              Our versatile team crafts visually stunning designs, mesmerizing videos, sleek websites, and captivating sondtracks.
@@ -147,5 +154,19 @@
         </div>
 
     </section>
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+
+            sidebar.style.display = 'flex'
+        }
+
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+
+            sidebar.style.display = 'none'
+        }
+
+    </script>
 </body>
 </html>
